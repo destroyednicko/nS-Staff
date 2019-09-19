@@ -1,0 +1,33 @@
+server:
+  nome: "STORM"
+  # SINGLE, BUNGEE, REDIS
+  message_type: "SINGLE"
+  redis:
+    host: "127.0.0.1"
+    port: 6379
+    auth:
+      enabled: false
+      password: ""
+  mysql:
+    host: "127.0.0.1"
+    port: 3306
+    username: ""
+    password: ""
+    database: ""
+opcoes:
+  staff_permission: "nstaff.ns"
+  delay_between_commands: 600
+mensagens:
+  staff_join: "&8[&6nS-Staff&8] &6%player% &7efetuou login - &6%server%&7."
+  staff_leave: "&8[&6nS-Staff&8] &6%player% &7saiu - &6%server%&7."
+  staff_chat: "&8[&6nS-Staff&8] &7(%server%) &6%player%: &e%message%"
+  staffchat_toggle_on: "&8[&6nS-Staff&8] &6StaffChat: &aon&7!"
+  staffchat_toggle_off: "&8[&6nS-Staff&8] &6StaffChat: &coff&7!"
+  toggle_mensagens_on: "&8[&6nS-Staff&8] &6Alertas Staff: &aon&7!"
+  toggle_mensagens_off: "&8[&6nS-Staff&8] &6Alertas Staff: &coff&7!"
+  request_message: "&8[&6nS-Staff&8] &6%player% &7(%server%) &7tem uma duvida: &6%message%"
+  request_sent: "&8[&6nS-Staff&8] &7Pedido enviado a todos os staffers."
+  report_message: "&8[&6nS-Staff&8] &6%player% &7(%server%) denunciou &6%reported% &7por &6%message%"
+  report_sent: "&8[&6nS-Staff&8] &7Denuncia enviada a todos."
+  cooldown: "&cComando em resfriamento!"
+  no_permission: "&cVocê precisa do grupo AJUDANTE ou superior."

@@ -1,0 +1,10 @@
+name: nS_Staff
+author: yNickoKun, jeanSTORM
+version: 0.1-STABLE
+main: kun.ynicko.nstaff.nStaff
+commands:
+  staffchat:
+  receberstaff:
+  request:
+  report:
+  nstaff:
